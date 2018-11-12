@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GPA Calculator SRM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about">This app genrally helps you to find the gpa for SRM university
+    it contains regulation according to 2015 onwards, which is O:10 A+:9 A:8 and so on.</string>
+    <string name="action_settings">Settings</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">reset</string>
+    <string name="ab">About</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+
+</resources>

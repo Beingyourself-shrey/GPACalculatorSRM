@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="me.beingyourself.gpacalculatorsrm.myAct"
+    tools:showIn="@layout/app_bar_my">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input Credits"
+                android:id="@+id/first"
+                android:layout_alignParentLeft="true"
+                android:padding="20dp"
+                />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner1"
+                android:layout_alignParentEnd="true"
+                android:hint="Grade"
+                android:padding="20dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Input Credits"
+                android:padding="20dp"
+                android:id="@+id/second"
+                android:layout_alignParentLeft="true"
+                />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_alignParentEnd="true"
+                android:padding="20dp"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Input Credits"
+            android:id="@+id/third"
+            android:layout_alignParentLeft="true"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner3"
+            android:layout_alignParentEnd="true"
+            android:hint="Grade"/>
+
+
+    </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Input Credits"
+            android:id="@+id/fourth"
+            android:layout_alignParentLeft="true"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/spinner4"
+            android:layout_alignParentEnd="true"
+            android:hint="Grade"/>
+
+
+    </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Input Credits"
+            android:id="@+id/fifth"
+            android:layout_alignParentLeft="true"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner5"
+            android:layout_alignParentEnd="true"
+            android:padding="20dp"
+            android:hint="Grade"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:hint="Input Credits"
+            android:id="@+id/sixth"
+            android:layout_alignParentLeft="true"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner6"
+            android:layout_alignParentEnd="true"
+            android:padding="20dp"
+            android:hint="Grade"/>
+
+
+    </RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/seventh"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner7"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/eight"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner8"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/ninth"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner9"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/tenth"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner10"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/eleventhth"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner11"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/twelfth"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner12"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/thirteen"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner13"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<EditText
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Input Credits"
+    android:id="@+id/fourteenth"
+    android:layout_alignParentLeft="true"
+    />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner14"
+    android:layout_alignParentEnd="true"
+    android:padding="20dp"
+    android:hint="Grade"/>
+
+
+</RelativeLayout>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:text="@string/calculate"
+    android:id="@+id/cal"
+    android:onClick="calculate"/>
+ <Button
+    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/reset"
+            android:id="@+id/reset"
+     android:onClick="reset"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:hint="GPA"
+            android:id="@+id/gpa"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</ScrollView>
