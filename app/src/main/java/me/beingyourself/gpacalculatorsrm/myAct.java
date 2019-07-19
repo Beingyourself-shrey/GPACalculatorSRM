@@ -25,8 +25,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-public class myAct extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class myAct extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     Spinner spin1;
     Spinner spin2;
     Spinner spin3;
@@ -403,7 +402,7 @@ crd=Integer.parseInt(checkEdit);
         {
             j=7;
         }
-        else if(checkw=="B")
+        else if(check=="B")
         {
             j=6;
         }
